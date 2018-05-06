@@ -1,0 +1,3060 @@
+fileFormatVersion: 2
+guid: a3dd6701b062648429082cfe01b874b7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AutoGen_Sheet_GameMap_00_pb_0
+    21300002: AutoGen_Sheet_GameMap_00_pb_1
+    21300004: AutoGen_Sheet_GameMap_00_pb_2
+    21300006: AutoGen_Sheet_GameMap_00_pb_3
+    21300008: AutoGen_Sheet_GameMap_00_pb_4
+    21300010: AutoGen_Sheet_GameMap_00_pb_5
+    21300012: AutoGen_Sheet_GameMap_00_pb_6
+    21300014: AutoGen_Sheet_GameMap_00_pb_7
+    21300016: AutoGen_Sheet_GameMap_00_pb_8
+    21300018: AutoGen_Sheet_GameMap_00_pb_9
+    21300020: AutoGen_Sheet_GameMap_00_pb_10
+    21300022: AutoGen_Sheet_GameMap_00_pb_11
+    21300024: AutoGen_Sheet_GameMap_00_pb_12
+    21300026: AutoGen_Sheet_GameMap_00_pb_13
+    21300028: AutoGen_Sheet_GameMap_00_pb_14
+    21300030: AutoGen_Sheet_GameMap_00_pb_15
+    21300032: AutoGen_Sheet_GameMap_00_pb_16
+    21300034: AutoGen_Sheet_GameMap_00_pb_17
+    21300036: AutoGen_Sheet_GameMap_00_pb_18
+    21300038: AutoGen_Sheet_GameMap_00_pb_19
+    21300040: AutoGen_Sheet_GameMap_00_pb_20
+    21300042: AutoGen_Sheet_GameMap_00_pb_21
+    21300044: AutoGen_Sheet_GameMap_00_pb_22
+    21300046: AutoGen_Sheet_GameMap_00_pb_23
+    21300048: AutoGen_Sheet_GameMap_00_pb_24
+    21300050: AutoGen_Sheet_GameMap_00_pb_25
+    21300052: AutoGen_Sheet_GameMap_00_pb_26
+    21300054: AutoGen_Sheet_GameMap_00_pb_27
+    21300056: AutoGen_Sheet_GameMap_00_pb_28
+    21300058: AutoGen_Sheet_GameMap_00_pb_29
+    21300060: AutoGen_Sheet_GameMap_00_pb_30
+    21300062: AutoGen_Sheet_GameMap_00_pb_31
+    21300064: AutoGen_Sheet_GameMap_00_pb_32
+    21300066: AutoGen_Sheet_GameMap_00_pb_33
+    21300068: AutoGen_Sheet_GameMap_00_pb_34
+    21300070: AutoGen_Sheet_GameMap_00_pb_35
+    21300072: AutoGen_Sheet_GameMap_00_pb_36
+    21300074: AutoGen_Sheet_GameMap_00_pb_37
+    21300076: AutoGen_Sheet_GameMap_00_pb_38
+    21300078: AutoGen_Sheet_GameMap_00_pb_39
+    21300080: AutoGen_Sheet_GameMap_00_pb_40
+    21300082: AutoGen_Sheet_GameMap_00_pb_41
+    21300084: AutoGen_Sheet_GameMap_00_pb_42
+    21300086: AutoGen_Sheet_GameMap_00_pb_43
+    21300088: AutoGen_Sheet_GameMap_00_pb_44
+    21300090: AutoGen_Sheet_GameMap_00_pb_45
+    21300092: AutoGen_Sheet_GameMap_00_pb_46
+    21300094: AutoGen_Sheet_GameMap_00_pb_47
+    21300096: AutoGen_Sheet_GameMap_00_pb_48
+    21300098: AutoGen_Sheet_GameMap_00_pb_49
+    21300100: AutoGen_Sheet_GameMap_00_pb_50
+    21300102: AutoGen_Sheet_GameMap_00_pb_51
+    21300104: AutoGen_Sheet_GameMap_00_pb_52
+    21300106: AutoGen_Sheet_GameMap_00_pb_53
+    21300108: AutoGen_Sheet_GameMap_00_pb_54
+    21300110: AutoGen_Sheet_GameMap_00_pb_55
+    21300112: AutoGen_Sheet_GameMap_00_pb_56
+    21300114: AutoGen_Sheet_GameMap_00_pb_57
+    21300116: AutoGen_Sheet_GameMap_00_pb_58
+    21300118: AutoGen_Sheet_GameMap_00_pb_59
+    21300120: AutoGen_Sheet_GameMap_00_pb_60
+    21300122: AutoGen_Sheet_GameMap_00_pb_61
+    21300124: AutoGen_Sheet_GameMap_00_pb_62
+    21300126: AutoGen_Sheet_GameMap_00_pb_63
+    21300128: AutoGen_Sheet_GameMap_00_pb_64
+    21300130: AutoGen_Sheet_GameMap_00_pb_65
+    21300132: AutoGen_Sheet_GameMap_00_pb_66
+    21300134: AutoGen_Sheet_GameMap_00_pb_67
+    21300136: AutoGen_Sheet_GameMap_00_pb_68
+    21300138: AutoGen_Sheet_GameMap_00_pb_69
+    21300140: AutoGen_Sheet_GameMap_00_pb_70
+    21300142: AutoGen_Sheet_GameMap_00_pb_71
+    21300144: AutoGen_Sheet_GameMap_00_pb_72
+    21300146: AutoGen_Sheet_GameMap_00_pb_73
+    21300148: AutoGen_Sheet_GameMap_00_pb_74
+    21300150: AutoGen_Sheet_GameMap_00_pb_75
+    21300152: AutoGen_Sheet_GameMap_00_pb_76
+    21300154: AutoGen_Sheet_GameMap_00_pb_77
+    21300156: AutoGen_Sheet_GameMap_00_pb_78
+    21300158: AutoGen_Sheet_GameMap_00_pb_79
+    21300160: AutoGen_Sheet_GameMap_00_pb_80
+    21300162: AutoGen_Sheet_GameMap_00_pb_81
+    21300164: AutoGen_Sheet_GameMap_00_pb_82
+    21300166: AutoGen_Sheet_GameMap_00_pb_83
+    21300168: AutoGen_Sheet_GameMap_00_pb_84
+    21300170: AutoGen_Sheet_GameMap_00_pb_85
+    21300172: AutoGen_Sheet_GameMap_00_pb_86
+    21300174: AutoGen_Sheet_GameMap_00_pb_87
+    21300176: AutoGen_Sheet_GameMap_00_pb_88
+    21300178: AutoGen_Sheet_GameMap_00_pb_89
+    21300180: AutoGen_Sheet_GameMap_00_pb_90
+    21300182: AutoGen_Sheet_GameMap_00_pb_91
+    21300184: AutoGen_Sheet_GameMap_00_pb_92
+    21300186: AutoGen_Sheet_GameMap_00_pb_93
+    21300188: AutoGen_Sheet_GameMap_00_pb_94
+    21300190: AutoGen_Sheet_GameMap_00_pb_95
+    21300192: AutoGen_Sheet_GameMap_00_pb_96
+    21300194: AutoGen_Sheet_GameMap_00_pb_97
+    21300196: AutoGen_Sheet_GameMap_00_pb_98
+    21300198: AutoGen_Sheet_GameMap_00_pb_99
+    21300200: AutoGen_Sheet_GameMap_00_pb_100
+    21300202: AutoGen_Sheet_GameMap_00_pb_101
+    21300204: AutoGen_Sheet_GameMap_00_pb_102
+    21300206: AutoGen_Sheet_GameMap_00_pb_103
+    21300208: AutoGen_Sheet_GameMap_00_pb_104
+    21300210: AutoGen_Sheet_GameMap_00_pb_105
+    21300212: AutoGen_Sheet_GameMap_00_pb_106
+    21300214: AutoGen_Sheet_GameMap_00_pb_107
+    21300216: AutoGen_Sheet_GameMap_00_pb_108
+    21300218: AutoGen_Sheet_GameMap_00_pb_109
+    21300220: AutoGen_Sheet_GameMap_00_pb_110
+    21300222: AutoGen_Sheet_GameMap_00_pb_111
+    21300224: AutoGen_Sheet_GameMap_00_pb_112
+    21300226: AutoGen_Sheet_GameMap_00_pb_113
+    21300228: AutoGen_Sheet_GameMap_00_pb_114
+    21300230: AutoGen_Sheet_GameMap_00_pb_115
+    21300232: AutoGen_Sheet_GameMap_00_pb_116
+    21300234: AutoGen_Sheet_GameMap_00_pb_117
+    21300236: AutoGen_Sheet_GameMap_00_pb_118
+    21300238: AutoGen_Sheet_GameMap_00_pb_119
+    21300240: AutoGen_Sheet_GameMap_00_pb_120
+    21300242: AutoGen_Sheet_GameMap_00_pb_121
+    21300244: AutoGen_Sheet_GameMap_00_pb_122
+    21300246: AutoGen_Sheet_GameMap_00_pb_123
+    21300248: AutoGen_Sheet_GameMap_00_pb_124
+    21300250: AutoGen_Sheet_GameMap_00_pb_125
+    21300252: AutoGen_Sheet_GameMap_00_pb_126
+    21300254: AutoGen_Sheet_GameMap_00_pb_127
+    21300256: AutoGen_Sheet_GameMap_00_pb_128
+    21300258: AutoGen_Sheet_GameMap_00_pb_129
+    21300260: AutoGen_Sheet_GameMap_00_pb_130
+    21300262: AutoGen_Sheet_GameMap_00_pb_131
+    21300264: AutoGen_Sheet_GameMap_00_pb_132
+    21300266: AutoGen_Sheet_GameMap_00_pb_133
+    21300268: AutoGen_Sheet_GameMap_00_pb_134
+    21300270: AutoGen_Sheet_GameMap_00_pb_135
+    21300272: AutoGen_Sheet_GameMap_00_pb_136
+    21300274: AutoGen_Sheet_GameMap_00_pb_137
+    21300276: AutoGen_Sheet_GameMap_00_pb_138
+    21300278: AutoGen_Sheet_GameMap_00_pb_139
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 12
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 1280, z: 1022, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  pushPullDilation: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_0
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1787
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e9160aa15ecb843abd2a9b41051e61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_1
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1797
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c2c0adba03f9f44b919386989e6d78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_2
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1797
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5132c0709d7d87948968df871bfc0716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_3
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1911
+        width: 64
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725e12ecf6b00544aa6a54b57610ea70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_4
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1892
+        width: 661
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15d85932a52cca46b49f4bfad7750b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_5
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1787
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90317519650c90348804bdfea2dc7fae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_6
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1797
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484eb1d9c0299ca489997131629696c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_7
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1772
+        width: 65
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d841395a9aa2040ba07a5440fe878b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_8
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1644
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7525004039d7e4e85b765eee0bb571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_9
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1558
+        width: 67
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d33115e16f85794f997e7ebf0ad5190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_10
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1696
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e5737fcefa8a642aa5933af4eba775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_11
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1753
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e416e12c8a5bfe84fb15a964f820a823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_12
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1715
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f548fc39ee22dcb4ea8e6d559cc5c460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_13
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1351
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab89aaf7cf170049b60ce5718439431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_14
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1696
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ae7b58c1276f94cbf8ac82291fb93d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_15
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1558
+        width: 67
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37da8ff8aa9c610449c6b980d96a0d16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_16
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1422
+        width: 111
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c0a87e1c334bc40b124a30cda9fb58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_17
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1644
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4b28a964dad6743b1aeb08f05dea1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_18
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1282
+        width: 82
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4f1e92d90ca0440893b1a2b76ce0c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_19
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1281
+        width: 82
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fabb0a9b053274ca5c5319404b14ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_20
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1351
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d28fd2be6f23b4469d3a05ceaa8e951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_21
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1281
+        width: 82
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dade766cbc1efe4482572bbb0d5de96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_22
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1404
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e699a01738d099c418bb7a3e82323a94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_23
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1281
+        width: 82
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6991e9f117a712247a04f84c36d33196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_24
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1285
+        width: 52
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bd17b12c04b4f499750f29e15581b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_25
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 1351
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b803af073f7a64fa3d7d21bdc33b5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_26
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1282
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5028f6418d45114e81c4b39ea0584c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_27
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1256
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72147529428d03348b08d14549634be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_28
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1359
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df66ac586e07bae47a936b8a2f683dcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_29
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1283
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667aff3c859d539498a11561a98e4fba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_30
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 1280
+        width: 36
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313c97120d5e1114c8d1907c7b42d241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_31
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1282
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553936c6738dac146b5d7980e7c090b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_32
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1280
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebf7a8e4cad7c446a160e59200788cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_33
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1019
+        width: 400
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ecc94a69b62774e867fc3ada22f067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_34
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1019
+        width: 400
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60df75bcc4b4e05499cc45187d1db073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_35
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1000
+        width: 212
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7056d54bc997978479618e3aaf95a8dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_36
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1240
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2660c5afc154941469539b0dc0915c79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_37
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1256
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea6c294bbfc297489e81c21105045d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_38
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1240
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f17a380d84da2b4b8c3b2796cf4e2d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_39
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 784
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fcd789ed22b654181a86b2dfa5cb7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_40
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1000
+        width: 212
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7991e7aaba85c564b89e098581151556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_41
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 865
+        width: 64
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780ea58097f33e94582b3cf23dc7c3c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_42
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 865
+        width: 65
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbaa6891881b33448e401fc438db394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_43
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 981
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04823c1acce6554a932541630b4a064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_44
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 964
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d217ab6b2c0ed264b973406d2460e663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_45
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 948
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bee228538e77f49b1d08b85776c82a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_46
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 768
+        width: 103
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c20ef37ba83b14a925cc362686b7ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_47
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 818
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db260b2772a49264d915b961277ebb40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_48
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 784
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19e0463fb6e8724e9edb987d299f8c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_49
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 771
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196ab7b555d03614dbd064b3714936de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_50
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 670
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaca5115b833c5408dc10c09f87184e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_51
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 546
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3f42cb0635533469a0b706c24df6aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_52
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 670
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9051e911ba695a49a0ac19aec543639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_53
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 547
+        width: 123
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e75a508d897d448b19ef402347ce73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_54
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 692
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e03e0408dd39224d90e94f1ca38b9d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_55
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 692
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f5d93c46c1418429a82b0ae459b829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_56
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 640
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5e6672ca0dcba4a9337e27b6cf99b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_57
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 611
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8ac5f212e154448b4dfa2e40a4751f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_58
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 548
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a0627f70ebfaf4fa17d4a909294968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_59
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 547
+        width: 123
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772458cca32ef984c8dbdbf732342dc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_60
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 547
+        width: 25
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e720c9b688a945c46ae01dc8e0864e2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_61
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 234
+        width: 214
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c58beb56594d44485c4b8975c94b56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_62
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 503
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018cbec2f39574344b4e08a77799992c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_63
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 546
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3def91e838eae49aeccdbfad386bf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_64
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 546
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa60a81ad961e4b448af712e4c51a0df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_65
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 426
+        width: 52
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90ebb3e70361474f8c294a98d43d051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 1026
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a715fdf44b975224990712dc55f77fa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_67
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 503
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace8599265d43ad4dad51b3f23134eef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_68
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 480
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0265b95f7cbbe41aa85f79f6177503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_69
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 489
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1540de41d252b7145b2c716f216ee41f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_70
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 480
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb04fbb80bf8a214a9d574ef0dae0fcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_71
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 186
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9abc27a35fc5946849a320c9cd7c81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_72
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 476
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ebb0f6914dfed41bcde2ea93de765c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_73
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 442
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c63519c51f21d4cbf2578e38ae03d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_74
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 460
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa423991629ee04ea4d5662650ca976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_75
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 476
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fe0113b4ce8a94fab149bc8cc869eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_76
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 452
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da5d7af1c971f34bb573f2da50fa42f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_77
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 460
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37762b9b96e888a4795c0c2ff732e00c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_78
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 456
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522291634475175409555dd387ab1de0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_79
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 341
+        width: 194
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c740be6988cd6c540b839e6a1e963153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_80
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 442
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1de85577ac2a64eb5ee28129990633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_81
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 427
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085009beb75414444959a03253e67a1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_82
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 432
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9543e07860581244a50f5fb0f983e40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_83
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 406
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9373a1eb6929feb4388b136703047865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_84
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 382
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ef4f4da222d3b498ee3ab698fc4fb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_85
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 352
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a653a744d8c9fa741900bc22c8be73f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_86
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 351
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac7ae0fae422ad469846329ade3add4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_87
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 234
+        width: 214
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d975125fa4dff634a8872f8217627f37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_88
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 382
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96edf5f8cc173af4b87669faa774832b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_89
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 346
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54da8d344ae58ac498c3cd8a1d7625df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_90
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 352
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4995d9e4819f34f98f61e5abbd2ff0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_91
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 339
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5bdf2787b26b64d977724572729305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_92
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 339
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0bfc6958504c842bde2dc6cc1cd15e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_93
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 141
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e6f0bf0074a024284cf2666c7d3d37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_94
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 272
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78735d98edb18784c97e6903b88953b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_95
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 250
+        width: 50
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36f0f5c3012f42498986746219793db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_96
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 250
+        width: 50
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec90f165038c3ca4d9588526194ca1d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_97
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 186
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884ac5e2820e56040a120edcd1ce79ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_98
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 213
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0762a7be7d30924ba9c951999e07740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_99
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 213
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1c9c6313eec164f8b4fa0925267940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_100
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 160
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56609ef456994b43ac4d657fd970553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_101
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 171
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d052c09daa5577a4e9d1c5eff9ae16c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_102
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 141
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466293150601d7443abbdf0ec9c89bd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_103
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 51
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd42b120ac0017469839c77b7f1ac31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_104
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 60
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807bb838b2c5dd24cad8b52c2427f347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_105
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 0
+        width: 191
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2428925ce4681c54da843141080cbd3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_106
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 0
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5269ff7bbca26ed46b410295cbf540f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_107
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 111
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531f146ad4e9a4542830857717c27310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_108
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 135
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7183b6d6ff076c4b8fc49fa37ee75a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_109
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f26eb14def78b48a03886790744aa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_110
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18d70e3a7fb0f4428f8677bcdb4bb4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_111
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 80
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6e36ec59e6f8a46903a53bac9297bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_112
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 111
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bd73fa1d3951c4a8fd9fdd592f4f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_113
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 76
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb4ce2e768ffef4094158e6fac1f437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_114
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 90
+        width: 63
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe15a0205d7a69e4ca902d98893887da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_115
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 0
+        width: 139
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da51bb7998374a4d88cf5e0414f5378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_116
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 0
+        width: 141
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe2d3a9ba4a65d479ee8fb3dd152af5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_117
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 73
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d02fe8fa8e0aad4f93ce41fa6a8f8f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_118
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 73
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f02d0b2a212c744b22f0f3aa4668db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_119
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 80
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24302459b7e445b4e8b2a55f1d424fc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_120
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 60
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acd2e4ffc1fc28449dbf9d6c1050d1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_121
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 7
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef658c45f0ff32142a5a6ef05aa88716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_122
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 8
+        width: 219
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a608022a2433de742bfd6c4825812b89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_123
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 62
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3571d8ef2bbfdd2479f2e0719a038d2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_124
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 9
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be55ba119936e5040a587f263454a7a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_125
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30a3d5132293fd4dbfbfd822ee25ecd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_126
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 64
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7fcf27c2a3b6e4d82e5f85c0af6a38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_127
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 51
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0d4fabd2c9ebf449213680c1e459fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_128
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 16
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136a069e90aff254b99fcbcf42eba623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_129
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 0
+        width: 139
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca906dad56c8cf46bcaf1160e97586c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_130
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 49
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d066559f9e459e439a388909e1e5657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_131
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 31
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bebb620a75a6d48aa14a4d4100908e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_132
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 28
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8d98478ec8f2f438b3be940b2cb14d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_133
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a05d950cd9be094ca4969ac6ae46cd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_134
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 10
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a4e37001ce6174db3520f3cbe3800a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_135
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a599b1276c0301947b1e0511b73ab391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_136
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 0
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3c8c4a7e8f6354abf7afc054b9b2b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_137
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1696
+        width: 120
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99237f42c03066148a832c04a73d4626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_138
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1696
+        width: 136
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b7b338602d3704cbec9346e1a3f052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AutoGen_Sheet_GameMap_00_pb_139
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 547
+        width: 353
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6c7ed7c252f8e44bf66b620677b198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1299eefce5f803a43b9013c0d81d6f9a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
