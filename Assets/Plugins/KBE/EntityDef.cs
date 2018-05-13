@@ -122,97 +122,309 @@ namespace KBEngine
 
 			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), property(spaceID / 40002).");
 
-			Property pAccount_Country = new Property();
-			pAccount_Country.name = "Country";
-			pAccount_Country.properUtype = 2;
-			pAccount_Country.properFlags = 32;
-			pAccount_Country.aliasID = 4;
-			Byte Account_Country_defval;
-			Byte.TryParse("", out Account_Country_defval);
-			pAccount_Country.defaultVal = Account_Country_defval;
-			pAccountModule.propertys["Country"] = pAccount_Country; 
+			List<DATATYPE_BASE> pAccount_onCreateAvatarResult_args = new List<DATATYPE_BASE>();
+			pAccount_onCreateAvatarResult_args.Add(EntityDef.id2datatypes[2]);
+			pAccount_onCreateAvatarResult_args.Add(EntityDef.id2datatypes[10]);
 
-			pAccountModule.usePropertyDescrAlias = true;
-			pAccountModule.idpropertys[(UInt16)pAccount_Country.aliasID] = pAccount_Country;
+			Method pAccount_onCreateAvatarResult = new Method();
+			pAccount_onCreateAvatarResult.name = "onCreateAvatarResult";
+			pAccount_onCreateAvatarResult.methodUtype = 3;
+			pAccount_onCreateAvatarResult.aliasID = 1;
+			pAccount_onCreateAvatarResult.args = pAccount_onCreateAvatarResult_args;
 
-			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), property(Country / 2).");
+			pAccountModule.methods["onCreateAvatarResult"] = pAccount_onCreateAvatarResult; 
+			pAccountModule.useMethodDescrAlias = true;
+			pAccountModule.idmethods[(UInt16)pAccount_onCreateAvatarResult.aliasID] = pAccount_onCreateAvatarResult;
 
-			Property pAccount_Gold = new Property();
-			pAccount_Gold.name = "Gold";
-			pAccount_Gold.properUtype = 5;
-			pAccount_Gold.properFlags = 32;
-			pAccount_Gold.aliasID = 5;
-			Int32 Account_Gold_defval;
-			Int32.TryParse("", out Account_Gold_defval);
-			pAccount_Gold.defaultVal = Account_Gold_defval;
-			pAccountModule.propertys["Gold"] = pAccount_Gold; 
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), method(onCreateAvatarResult / 3).");
 
-			pAccountModule.usePropertyDescrAlias = true;
-			pAccountModule.idpropertys[(UInt16)pAccount_Gold.aliasID] = pAccount_Gold;
+			List<DATATYPE_BASE> pAccount_onReqAvatar_args = new List<DATATYPE_BASE>();
+			pAccount_onReqAvatar_args.Add(EntityDef.id2datatypes[2]);
 
-			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), property(Gold / 5).");
+			Method pAccount_onReqAvatar = new Method();
+			pAccount_onReqAvatar.name = "onReqAvatar";
+			pAccount_onReqAvatar.methodUtype = 4;
+			pAccount_onReqAvatar.aliasID = 2;
+			pAccount_onReqAvatar.args = pAccount_onReqAvatar_args;
 
-			Property pAccount_Level = new Property();
-			pAccount_Level.name = "Level";
-			pAccount_Level.properUtype = 4;
-			pAccount_Level.properFlags = 32;
-			pAccount_Level.aliasID = 6;
-			Int16 Account_Level_defval;
-			Int16.TryParse("", out Account_Level_defval);
-			pAccount_Level.defaultVal = Account_Level_defval;
-			pAccountModule.propertys["Level"] = pAccount_Level; 
+			pAccountModule.methods["onReqAvatar"] = pAccount_onReqAvatar; 
+			pAccountModule.useMethodDescrAlias = true;
+			pAccountModule.idmethods[(UInt16)pAccount_onReqAvatar.aliasID] = pAccount_onReqAvatar;
 
-			pAccountModule.usePropertyDescrAlias = true;
-			pAccountModule.idpropertys[(UInt16)pAccount_Level.aliasID] = pAccount_Level;
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), method(onReqAvatar / 4).");
 
-			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), property(Level / 4).");
+			List<DATATYPE_BASE> pAccount_reqAvatar_args = new List<DATATYPE_BASE>();
 
-			Property pAccount_Name = new Property();
-			pAccount_Name.name = "Name";
-			pAccount_Name.properUtype = 1;
-			pAccount_Name.properFlags = 32;
-			pAccount_Name.aliasID = 7;
-			string Account_Name_defval = "";
-			pAccount_Name.defaultVal = Account_Name_defval;
-			pAccountModule.propertys["Name"] = pAccount_Name; 
+			Method pAccount_reqAvatar = new Method();
+			pAccount_reqAvatar.name = "reqAvatar";
+			pAccount_reqAvatar.methodUtype = 2;
+			pAccount_reqAvatar.aliasID = -1;
+			pAccount_reqAvatar.args = pAccount_reqAvatar_args;
 
-			pAccountModule.usePropertyDescrAlias = true;
-			pAccountModule.idpropertys[(UInt16)pAccount_Name.aliasID] = pAccount_Name;
+			pAccountModule.methods["reqAvatar"] = pAccount_reqAvatar; 
+			pAccountModule.base_methods["reqAvatar"] = pAccount_reqAvatar;
 
-			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), property(Name / 1).");
+			pAccountModule.idbase_methods[pAccount_reqAvatar.methodUtype] = pAccount_reqAvatar;
 
-			Property pAccount_Sex = new Property();
-			pAccount_Sex.name = "Sex";
-			pAccount_Sex.properUtype = 3;
-			pAccount_Sex.properFlags = 32;
-			pAccount_Sex.aliasID = 8;
-			Byte Account_Sex_defval;
-			Byte.TryParse("", out Account_Sex_defval);
-			pAccount_Sex.defaultVal = Account_Sex_defval;
-			pAccountModule.propertys["Sex"] = pAccount_Sex; 
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), method(reqAvatar / 2).");
 
-			pAccountModule.usePropertyDescrAlias = true;
-			pAccountModule.idpropertys[(UInt16)pAccount_Sex.aliasID] = pAccount_Sex;
+			List<DATATYPE_BASE> pAccount_reqCreateAvatar_args = new List<DATATYPE_BASE>();
+			pAccount_reqCreateAvatar_args.Add(EntityDef.id2datatypes[2]);
+			pAccount_reqCreateAvatar_args.Add(EntityDef.id2datatypes[2]);
+			pAccount_reqCreateAvatar_args.Add(EntityDef.id2datatypes[12]);
 
-			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), property(Sex / 3).");
+			Method pAccount_reqCreateAvatar = new Method();
+			pAccount_reqCreateAvatar.name = "reqCreateAvatar";
+			pAccount_reqCreateAvatar.methodUtype = 1;
+			pAccount_reqCreateAvatar.aliasID = -1;
+			pAccount_reqCreateAvatar.args = pAccount_reqCreateAvatar_args;
 
-			List<DATATYPE_BASE> pAccount_reqSetRole_args = new List<DATATYPE_BASE>();
-			pAccount_reqSetRole_args.Add(EntityDef.id2datatypes[2]);
-			pAccount_reqSetRole_args.Add(EntityDef.id2datatypes[2]);
-			pAccount_reqSetRole_args.Add(EntityDef.id2datatypes[12]);
+			pAccountModule.methods["reqCreateAvatar"] = pAccount_reqCreateAvatar; 
+			pAccountModule.base_methods["reqCreateAvatar"] = pAccount_reqCreateAvatar;
 
-			Method pAccount_reqSetRole = new Method();
-			pAccount_reqSetRole.name = "reqSetRole";
-			pAccount_reqSetRole.methodUtype = 1;
-			pAccount_reqSetRole.aliasID = -1;
-			pAccount_reqSetRole.args = pAccount_reqSetRole_args;
+			pAccountModule.idbase_methods[pAccount_reqCreateAvatar.methodUtype] = pAccount_reqCreateAvatar;
 
-			pAccountModule.methods["reqSetRole"] = pAccount_reqSetRole; 
-			pAccountModule.base_methods["reqSetRole"] = pAccount_reqSetRole;
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), method(reqCreateAvatar / 1).");
 
-			pAccountModule.idbase_methods[pAccount_reqSetRole.methodUtype] = pAccount_reqSetRole;
+			ScriptModule pAvatarModule = new ScriptModule("Avatar");
+			EntityDef.moduledefs["Avatar"] = pAvatarModule;
+			EntityDef.idmoduledefs[5] = pAvatarModule;
 
-			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), method(reqSetRole / 1).");
+			Property pAvatar_position = new Property();
+			pAvatar_position.name = "position";
+			pAvatar_position.properUtype = 40000;
+			pAvatar_position.properFlags = 4;
+			pAvatar_position.aliasID = 1;
+			Vector3 Avatar_position_defval = new Vector3();
+			pAvatar_position.defaultVal = Avatar_position_defval;
+			pAvatarModule.propertys["position"] = pAvatar_position; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_position.aliasID] = pAvatar_position;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(position / 40000).");
+
+			Property pAvatar_direction = new Property();
+			pAvatar_direction.name = "direction";
+			pAvatar_direction.properUtype = 40001;
+			pAvatar_direction.properFlags = 4;
+			pAvatar_direction.aliasID = 2;
+			Vector3 Avatar_direction_defval = new Vector3();
+			pAvatar_direction.defaultVal = Avatar_direction_defval;
+			pAvatarModule.propertys["direction"] = pAvatar_direction; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_direction.aliasID] = pAvatar_direction;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(direction / 40001).");
+
+			Property pAvatar_spaceID = new Property();
+			pAvatar_spaceID.name = "spaceID";
+			pAvatar_spaceID.properUtype = 40002;
+			pAvatar_spaceID.properFlags = 16;
+			pAvatar_spaceID.aliasID = 3;
+			UInt32 Avatar_spaceID_defval;
+			UInt32.TryParse("", out Avatar_spaceID_defval);
+			pAvatar_spaceID.defaultVal = Avatar_spaceID_defval;
+			pAvatarModule.propertys["spaceID"] = pAvatar_spaceID; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_spaceID.aliasID] = pAvatar_spaceID;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(spaceID / 40002).");
+
+			Property pAvatar_Country = new Property();
+			pAvatar_Country.name = "Country";
+			pAvatar_Country.properUtype = 20;
+			pAvatar_Country.properFlags = 4;
+			pAvatar_Country.aliasID = 4;
+			Byte Avatar_Country_defval;
+			Byte.TryParse("", out Avatar_Country_defval);
+			pAvatar_Country.defaultVal = Avatar_Country_defval;
+			pAvatarModule.propertys["Country"] = pAvatar_Country; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_Country.aliasID] = pAvatar_Country;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(Country / 20).");
+
+			Property pAvatar_Gold = new Property();
+			pAvatar_Gold.name = "Gold";
+			pAvatar_Gold.properUtype = 23;
+			pAvatar_Gold.properFlags = 32;
+			pAvatar_Gold.aliasID = 5;
+			Int32 Avatar_Gold_defval;
+			Int32.TryParse("", out Avatar_Gold_defval);
+			pAvatar_Gold.defaultVal = Avatar_Gold_defval;
+			pAvatarModule.propertys["Gold"] = pAvatar_Gold; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_Gold.aliasID] = pAvatar_Gold;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(Gold / 23).");
+
+			Property pAvatar_Level = new Property();
+			pAvatar_Level.name = "Level";
+			pAvatar_Level.properUtype = 22;
+			pAvatar_Level.properFlags = 4;
+			pAvatar_Level.aliasID = 6;
+			Int16 Avatar_Level_defval;
+			Int16.TryParse("", out Avatar_Level_defval);
+			pAvatar_Level.defaultVal = Avatar_Level_defval;
+			pAvatarModule.propertys["Level"] = pAvatar_Level; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_Level.aliasID] = pAvatar_Level;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(Level / 22).");
+
+			Property pAvatar_PlayerName = new Property();
+			pAvatar_PlayerName.name = "PlayerName";
+			pAvatar_PlayerName.properUtype = 18;
+			pAvatar_PlayerName.properFlags = 4;
+			pAvatar_PlayerName.aliasID = 7;
+			string Avatar_PlayerName_defval = "";
+			pAvatar_PlayerName.defaultVal = Avatar_PlayerName_defval;
+			pAvatarModule.propertys["PlayerName"] = pAvatar_PlayerName; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_PlayerName.aliasID] = pAvatar_PlayerName;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(PlayerName / 18).");
+
+			Property pAvatar_RoleType = new Property();
+			pAvatar_RoleType.name = "RoleType";
+			pAvatar_RoleType.properUtype = 19;
+			pAvatar_RoleType.properFlags = 4;
+			pAvatar_RoleType.aliasID = 8;
+			Byte Avatar_RoleType_defval;
+			Byte.TryParse("", out Avatar_RoleType_defval);
+			pAvatar_RoleType.defaultVal = Avatar_RoleType_defval;
+			pAvatarModule.propertys["RoleType"] = pAvatar_RoleType; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_RoleType.aliasID] = pAvatar_RoleType;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(RoleType / 19).");
+
+			Property pAvatar_Sex = new Property();
+			pAvatar_Sex.name = "Sex";
+			pAvatar_Sex.properUtype = 21;
+			pAvatar_Sex.properFlags = 4;
+			pAvatar_Sex.aliasID = 9;
+			Byte Avatar_Sex_defval;
+			Byte.TryParse("", out Avatar_Sex_defval);
+			pAvatar_Sex.defaultVal = Avatar_Sex_defval;
+			pAvatarModule.propertys["Sex"] = pAvatar_Sex; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_Sex.aliasID] = pAvatar_Sex;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(Sex / 21).");
+
+			Property pAvatar_modelID = new Property();
+			pAvatar_modelID.name = "modelID";
+			pAvatar_modelID.properUtype = 41006;
+			pAvatar_modelID.properFlags = 4;
+			pAvatar_modelID.aliasID = 10;
+			UInt32 Avatar_modelID_defval;
+			UInt32.TryParse("0", out Avatar_modelID_defval);
+			pAvatar_modelID.defaultVal = Avatar_modelID_defval;
+			pAvatarModule.propertys["modelID"] = pAvatar_modelID; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_modelID.aliasID] = pAvatar_modelID;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(modelID / 41006).");
+
+			Property pAvatar_modelScale = new Property();
+			pAvatar_modelScale.name = "modelScale";
+			pAvatar_modelScale.properUtype = 41007;
+			pAvatar_modelScale.properFlags = 4;
+			pAvatar_modelScale.aliasID = 11;
+			Byte Avatar_modelScale_defval;
+			Byte.TryParse("30", out Avatar_modelScale_defval);
+			pAvatar_modelScale.defaultVal = Avatar_modelScale_defval;
+			pAvatarModule.propertys["modelScale"] = pAvatar_modelScale; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_modelScale.aliasID] = pAvatar_modelScale;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(modelScale / 41007).");
+
+			Property pAvatar_name = new Property();
+			pAvatar_name.name = "name";
+			pAvatar_name.properUtype = 41003;
+			pAvatar_name.properFlags = 4;
+			pAvatar_name.aliasID = 12;
+			string Avatar_name_defval = "";
+			pAvatar_name.defaultVal = Avatar_name_defval;
+			pAvatarModule.propertys["name"] = pAvatar_name; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_name.aliasID] = pAvatar_name;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(name / 41003).");
+
+			Property pAvatar_own_val = new Property();
+			pAvatar_own_val.name = "own_val";
+			pAvatar_own_val.properUtype = 24;
+			pAvatar_own_val.properFlags = 16;
+			pAvatar_own_val.aliasID = 13;
+			UInt16 Avatar_own_val_defval;
+			UInt16.TryParse("", out Avatar_own_val_defval);
+			pAvatar_own_val.defaultVal = Avatar_own_val_defval;
+			pAvatarModule.propertys["own_val"] = pAvatar_own_val; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_own_val.aliasID] = pAvatar_own_val;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(own_val / 24).");
+
+			Property pAvatar_spaceUType = new Property();
+			pAvatar_spaceUType.name = "spaceUType";
+			pAvatar_spaceUType.properUtype = 41001;
+			pAvatar_spaceUType.properFlags = 8;
+			pAvatar_spaceUType.aliasID = 14;
+			UInt32 Avatar_spaceUType_defval;
+			UInt32.TryParse("", out Avatar_spaceUType_defval);
+			pAvatar_spaceUType.defaultVal = Avatar_spaceUType_defval;
+			pAvatarModule.propertys["spaceUType"] = pAvatar_spaceUType; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_spaceUType.aliasID] = pAvatar_spaceUType;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(spaceUType / 41001).");
+
+			Property pAvatar_uid = new Property();
+			pAvatar_uid.name = "uid";
+			pAvatar_uid.properUtype = 41004;
+			pAvatar_uid.properFlags = 4;
+			pAvatar_uid.aliasID = 15;
+			UInt32 Avatar_uid_defval;
+			UInt32.TryParse("0", out Avatar_uid_defval);
+			pAvatar_uid.defaultVal = Avatar_uid_defval;
+			pAvatarModule.propertys["uid"] = pAvatar_uid; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_uid.aliasID] = pAvatar_uid;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(uid / 41004).");
+
+			Property pAvatar_utype = new Property();
+			pAvatar_utype.name = "utype";
+			pAvatar_utype.properUtype = 41005;
+			pAvatar_utype.properFlags = 4;
+			pAvatar_utype.aliasID = 16;
+			UInt32 Avatar_utype_defval;
+			UInt32.TryParse("0", out Avatar_utype_defval);
+			pAvatar_utype.defaultVal = Avatar_utype_defval;
+			pAvatarModule.propertys["utype"] = pAvatar_utype; 
+
+			pAvatarModule.usePropertyDescrAlias = true;
+			pAvatarModule.idpropertys[(UInt16)pAvatar_utype.aliasID] = pAvatar_utype;
+
+			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Avatar), property(utype / 41005).");
 
 		}
 
@@ -220,7 +432,7 @@ namespace KBEngine
 		{
 			{
 				UInt16 utype = 2;
-				string typeName = "UINT8";
+				string typeName = "BOOL";
 				string name = "UINT8";
 				DATATYPE_BASE val = null;
 				EntityDef.datatypes.TryGetValue(name, out val);
@@ -242,7 +454,7 @@ namespace KBEngine
 
 			{
 				UInt16 utype = 5;
-				string typeName = "UINT64";
+				string typeName = "GOODSID";
 				string name = "UINT64";
 				DATATYPE_BASE val = null;
 				EntityDef.datatypes.TryGetValue(name, out val);
@@ -253,7 +465,7 @@ namespace KBEngine
 
 			{
 				UInt16 utype = 4;
-				string typeName = "UINT32";
+				string typeName = "GOODSTYPE";
 				string name = "UINT32";
 				DATATYPE_BASE val = null;
 				EntityDef.datatypes.TryGetValue(name, out val);
@@ -286,7 +498,7 @@ namespace KBEngine
 
 			{
 				UInt16 utype = 8;
-				string typeName = "INT32";
+				string typeName = "ENTITY_ID";
 				string name = "INT32";
 				DATATYPE_BASE val = null;
 				EntityDef.datatypes.TryGetValue(name, out val);
@@ -352,7 +564,7 @@ namespace KBEngine
 
 			{
 				UInt16 utype = 10;
-				string typeName = "PYTHON";
+				string typeName = "UID1";
 				string name = "PYTHON";
 				DATATYPE_BASE val = null;
 				EntityDef.datatypes.TryGetValue(name, out val);
@@ -429,7 +641,7 @@ namespace KBEngine
 
 			{
 				UInt16 utype = 16;
-				string typeName = "VECTOR3";
+				string typeName = "DIRECTION3D";
 				string name = "VECTOR3";
 				DATATYPE_BASE val = null;
 				EntityDef.datatypes.TryGetValue(name, out val);
@@ -445,6 +657,51 @@ namespace KBEngine
 				DATATYPE_BASE val = null;
 				EntityDef.datatypes.TryGetValue(name, out val);
 				EntityDef.datatypes[typeName] = val;
+				EntityDef.id2datatypes[utype] = EntityDef.datatypes[typeName];
+				EntityDef.datatype2id[typeName] = utype;
+			}
+
+			{
+				UInt16 utype = 22;
+				string typeName = "CITY_SELL_GOODS_INFO";
+				DATATYPE_CITY_SELL_GOODS_INFO datatype = new DATATYPE_CITY_SELL_GOODS_INFO();
+				EntityDef.datatypes[typeName] = datatype;
+				EntityDef.id2datatypes[utype] = EntityDef.datatypes[typeName];
+				EntityDef.datatype2id[typeName] = utype;
+			}
+
+			{
+				UInt16 utype = 23;
+				string typeName = "CITY_SELL_GOODS_LIST";
+				DATATYPE_CITY_SELL_GOODS_LIST datatype = new DATATYPE_CITY_SELL_GOODS_LIST();
+				EntityDef.datatypes[typeName] = datatype;
+				EntityDef.id2datatypes[utype] = EntityDef.datatypes[typeName];
+				EntityDef.datatype2id[typeName] = utype;
+			}
+
+			{
+				UInt16 utype = 25;
+				string typeName = "CITY_TYPE_PRICE_INFO";
+				DATATYPE_CITY_TYPE_PRICE_INFO datatype = new DATATYPE_CITY_TYPE_PRICE_INFO();
+				EntityDef.datatypes[typeName] = datatype;
+				EntityDef.id2datatypes[utype] = EntityDef.datatypes[typeName];
+				EntityDef.datatype2id[typeName] = utype;
+			}
+
+			{
+				UInt16 utype = 26;
+				string typeName = "CITY_TYPE_PRICE_LIST";
+				DATATYPE_CITY_TYPE_PRICE_LIST datatype = new DATATYPE_CITY_TYPE_PRICE_LIST();
+				EntityDef.datatypes[typeName] = datatype;
+				EntityDef.id2datatypes[utype] = EntityDef.datatypes[typeName];
+				EntityDef.datatype2id[typeName] = utype;
+			}
+
+			{
+				UInt16 utype = 27;
+				string typeName = "AVATAR_INFOS";
+				DATATYPE_AVATAR_INFOS datatype = new DATATYPE_AVATAR_INFOS();
+				EntityDef.datatypes[typeName] = datatype;
 				EntityDef.id2datatypes[utype] = EntityDef.datatypes[typeName];
 				EntityDef.datatype2id[typeName] = utype;
 			}

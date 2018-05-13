@@ -21,9 +21,18 @@ namespace KBEngine
 			type = ENTITYCALL_TYPE.ENTITYCALL_TYPE_BASE;
 		}
 
-		public void reqSetRole(Byte arg1, Byte arg2, string arg3)
+		public void reqAvatar()
 		{
-			Bundle pBundle = newCall("reqSetRole", 0);
+			Bundle pBundle = newCall("reqAvatar", 0);
+			if(pBundle == null)
+				return;
+
+			sendCall(null);
+		}
+
+		public void reqCreateAvatar(Byte arg1, Byte arg2, string arg3)
+		{
+			Bundle pBundle = newCall("reqCreateAvatar", 0);
 			if(pBundle == null)
 				return;
 

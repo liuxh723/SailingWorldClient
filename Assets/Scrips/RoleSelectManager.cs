@@ -42,7 +42,7 @@ public class RoleSelectManager : MonoBehaviour {
     {
         if (selCountry != 0 && sex != 0&& inputName.text != string.Empty)
         {
-            KBEngine.Event.fireIn("RoleSet", selCountry, sex, inputName.text);
+            KBEngine.Event.fireIn("CreateAvatar", selCountry, sex, inputName.text);
         }
         
         enabled = false;    

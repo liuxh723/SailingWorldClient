@@ -28,4 +28,10 @@ public class CameraManager : MonoBehaviour {
     {
         GoLookAtTarget = true;
     }
+
+    public void SetTarget(GameObject obj)
+    {
+        lookAtTarget = obj.transform;
+        frameTarget = obj.transform;
+    }
 }

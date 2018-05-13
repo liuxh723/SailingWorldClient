@@ -29,6 +29,7 @@ public class LoginManager : MonoBehaviour {
         }
         KBEngine.Event.registerOut("onLoginFailed", this, "onLoginFailed");
         KBEngine.Event.registerOut("onLoginSuccessfully", this, "onLoginSuccessfully");
+        KBEngine.Event.registerOut("onHaveNoAvatar", this, "onHaveNoAvatar");
     }
 	
 	// Update is called once per frame
@@ -39,7 +40,10 @@ public class LoginManager : MonoBehaviour {
     {
         KBEngine.Event.fireIn("login", textID.text, textPassword.text, System.Text.Encoding.UTF8.GetBytes("PC"));
     }
-
+    public void onHaveNoAvatar()
+    {
+        NameSet.SetActive(true);
+    }
     public void onLoginSuccessfully()
     {
         Debug.LogFormat("登录成功！");
@@ -47,7 +51,7 @@ public class LoginManager : MonoBehaviour {
         Account me = KBEngineApp.app.player() as Account;
         //Data.accountNama = me.Name;
         login.SetActive(false);
-        NameSet.SetActive(me.Name == string.Empty);
+        me.baseEntityCall.reqAvatar();
 
     }
 

@@ -19,17 +19,9 @@ namespace KBEngine
 		public EntityBaseEntityCall_AccountBase baseEntityCall = null;
 		public EntityCellEntityCall_AccountBase cellEntityCall = null;
 
-		public Byte Country = 0;
-		public virtual void onCountryChanged(Byte oldValue) {}
-		public Int32 Gold = 0;
-		public virtual void onGoldChanged(Int32 oldValue) {}
-		public Int16 Level = 0;
-		public virtual void onLevelChanged(Int16 oldValue) {}
-		public string Name = "";
-		public virtual void onNameChanged(string oldValue) {}
-		public Byte Sex = 0;
-		public virtual void onSexChanged(Byte oldValue) {}
 
+		public abstract void onCreateAvatarResult(Byte arg1, byte[] arg2); 
+		public abstract void onReqAvatar(Byte arg1); 
 
 		public AccountBase()
 		{
@@ -98,6 +90,15 @@ namespace KBEngine
 
 			switch(method.methodUtype)
 			{
+				case 3:
+					Byte onCreateAvatarResult_arg1 = stream.readUint8();
+					PYTHON onCreateAvatarResult_arg2 = stream.readPython();
+					onCreateAvatarResult(onCreateAvatarResult_arg1, onCreateAvatarResult_arg2);
+					break;
+				case 4:
+					Byte onReqAvatar_arg1 = stream.readUint8();
+					onReqAvatar(onReqAvatar_arg1);
+					break;
 				default:
 					break;
 			};
@@ -146,86 +147,6 @@ namespace KBEngine
 
 				switch(prop.properUtype)
 				{
-					case 2:
-						Byte oldval_Country = Country;
-						Country = stream.readUint8();
-
-						if(prop.isBase())
-						{
-							if(inited)
-								onCountryChanged(oldval_Country);
-						}
-						else
-						{
-							if(inWorld)
-								onCountryChanged(oldval_Country);
-						}
-
-						break;
-					case 5:
-						Int32 oldval_Gold = Gold;
-						Gold = stream.readInt32();
-
-						if(prop.isBase())
-						{
-							if(inited)
-								onGoldChanged(oldval_Gold);
-						}
-						else
-						{
-							if(inWorld)
-								onGoldChanged(oldval_Gold);
-						}
-
-						break;
-					case 4:
-						Int16 oldval_Level = Level;
-						Level = stream.readInt16();
-
-						if(prop.isBase())
-						{
-							if(inited)
-								onLevelChanged(oldval_Level);
-						}
-						else
-						{
-							if(inWorld)
-								onLevelChanged(oldval_Level);
-						}
-
-						break;
-					case 1:
-						string oldval_Name = Name;
-						Name = stream.readUnicode();
-
-						if(prop.isBase())
-						{
-							if(inited)
-								onNameChanged(oldval_Name);
-						}
-						else
-						{
-							if(inWorld)
-								onNameChanged(oldval_Name);
-						}
-
-						break;
-					case 3:
-						Byte oldval_Sex = Sex;
-						Sex = stream.readUint8();
-
-						if(prop.isBase())
-						{
-							if(inited)
-								onSexChanged(oldval_Sex);
-						}
-						else
-						{
-							if(inWorld)
-								onSexChanged(oldval_Sex);
-						}
-
-						break;
 					case 40001:
 						Vector3 oldval_direction = direction;
 						direction = stream.readVector3();
@@ -271,111 +192,6 @@ namespace KBEngine
 		{
 			ScriptModule sm = EntityDef.moduledefs["Account"];
 			Dictionary<UInt16, Property> pdatas = sm.idpropertys;
-
-			Byte oldval_Country = Country;
-			Property prop_Country = pdatas[4];
-			if(prop_Country.isBase())
-			{
-				if(inited && !inWorld)
-					onCountryChanged(oldval_Country);
-			}
-			else
-			{
-				if(inWorld)
-				{
-					if(prop_Country.isOwnerOnly() && !isPlayer())
-					{
-					}
-					else
-					{
-						onCountryChanged(oldval_Country);
-					}
-				}
-			}
-
-			Int32 oldval_Gold = Gold;
-			Property prop_Gold = pdatas[5];
-			if(prop_Gold.isBase())
-			{
-				if(inited && !inWorld)
-					onGoldChanged(oldval_Gold);
-			}
-			else
-			{
-				if(inWorld)
-				{
-					if(prop_Gold.isOwnerOnly() && !isPlayer())
-					{
-					}
-					else
-					{
-						onGoldChanged(oldval_Gold);
-					}
-				}
-			}
-
-			Int16 oldval_Level = Level;
-			Property prop_Level = pdatas[6];
-			if(prop_Level.isBase())
-			{
-				if(inited && !inWorld)
-					onLevelChanged(oldval_Level);
-			}
-			else
-			{
-				if(inWorld)
-				{
-					if(prop_Level.isOwnerOnly() && !isPlayer())
-					{
-					}
-					else
-					{
-						onLevelChanged(oldval_Level);
-					}
-				}
-			}
-
-			string oldval_Name = Name;
-			Property prop_Name = pdatas[7];
-			if(prop_Name.isBase())
-			{
-				if(inited && !inWorld)
-					onNameChanged(oldval_Name);
-			}
-			else
-			{
-				if(inWorld)
-				{
-					if(prop_Name.isOwnerOnly() && !isPlayer())
-					{
-					}
-					else
-					{
-						onNameChanged(oldval_Name);
-					}
-				}
-			}
-
-			Byte oldval_Sex = Sex;
-			Property prop_Sex = pdatas[8];
-			if(prop_Sex.isBase())
-			{
-				if(inited && !inWorld)
-					onSexChanged(oldval_Sex);
-			}
-			else
-			{
-				if(inWorld)
-				{
-					if(prop_Sex.isOwnerOnly() && !isPlayer())
-					{
-					}
-					else
-					{
-						onSexChanged(oldval_Sex);
-					}
-				}
-			}
 
 			Vector3 oldval_direction = direction;
 			Property prop_direction = pdatas[2];

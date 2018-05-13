@@ -12,4 +12,148 @@ namespace KBEngine
 	using System.Collections.Generic;
 
 
+
+	public class DATATYPE_CITY_SELL_GOODS_INFO : DATATYPE_BASE
+	{
+		public CITY_SELL_GOODS_INFO createFromStreamEx(MemoryStream stream)
+		{
+			CITY_SELL_GOODS_INFO datas = new CITY_SELL_GOODS_INFO();
+			datas.GoodsID = stream.readUint64();
+			datas.GoodsBaseNum = stream.readUint16();
+			return datas;
+		}
+
+		public void addToStreamEx(Bundle stream, CITY_SELL_GOODS_INFO v)
+		{
+			stream.writeUint64(v.GoodsID);
+			stream.writeUint16(v.GoodsBaseNum);
+		}
+	}
+
+
+
+	public class DATATYPE_CITY_SELL_GOODS_LIST : DATATYPE_BASE
+	{
+		private DATATYPE__CITY_SELL_GOODS_LIST_values_ArrayType_ChildArray values_DataType = new DATATYPE__CITY_SELL_GOODS_LIST_values_ArrayType_ChildArray();
+
+		public class DATATYPE__CITY_SELL_GOODS_LIST_values_ArrayType_ChildArray : DATATYPE_BASE
+		{
+			private DATATYPE_CITY_SELL_GOODS_INFO itemType = new DATATYPE_CITY_SELL_GOODS_INFO();
+
+			public List<CITY_SELL_GOODS_INFO> createFromStreamEx(MemoryStream stream)
+			{
+				UInt32 size = stream.readUint32();
+				List<CITY_SELL_GOODS_INFO> datas = new List<CITY_SELL_GOODS_INFO>();
+
+				while(size > 0)
+				{
+					--size;
+					datas.Add(itemType.createFromStreamEx(stream));
+				};
+
+				return datas;
+			}
+
+			public void addToStreamEx(Bundle stream, List<CITY_SELL_GOODS_INFO> v)
+			{
+				stream.writeUint32((UInt32)v.Count);
+				for(int i=0; i<v.Count; ++i)
+				{
+					itemType.addToStreamEx(stream, v[i]);
+				};
+			}
+		}
+
+		public CITY_SELL_GOODS_LIST createFromStreamEx(MemoryStream stream)
+		{
+			CITY_SELL_GOODS_LIST datas = new CITY_SELL_GOODS_LIST();
+			datas.values = values_DataType.createFromStreamEx(stream);
+			return datas;
+		}
+
+		public void addToStreamEx(Bundle stream, CITY_SELL_GOODS_LIST v)
+		{
+			values_DataType.addToStreamEx(stream, v.values);
+		}
+	}
+
+
+
+	public class DATATYPE_CITY_TYPE_PRICE_INFO : DATATYPE_BASE
+	{
+		public CITY_TYPE_PRICE_INFO createFromStreamEx(MemoryStream stream)
+		{
+			CITY_TYPE_PRICE_INFO datas = new CITY_TYPE_PRICE_INFO();
+			datas.GoodsType = stream.readUint32();
+			datas.TypePrice = stream.readFloat();
+			return datas;
+		}
+
+		public void addToStreamEx(Bundle stream, CITY_TYPE_PRICE_INFO v)
+		{
+			stream.writeUint32(v.GoodsType);
+			stream.writeFloat(v.TypePrice);
+		}
+	}
+
+
+
+	public class DATATYPE_CITY_TYPE_PRICE_LIST : DATATYPE_BASE
+	{
+		private DATATYPE_CITY_TYPE_PRICE_INFO itemType = new DATATYPE_CITY_TYPE_PRICE_INFO();
+
+		public CITY_TYPE_PRICE_LIST createFromStreamEx(MemoryStream stream)
+		{
+			UInt32 size = stream.readUint32();
+			CITY_TYPE_PRICE_LIST datas = new CITY_TYPE_PRICE_LIST();
+
+			while(size > 0)
+			{
+				--size;
+				datas.Add(itemType.createFromStreamEx(stream));
+			};
+
+			return datas;
+		}
+
+		public void addToStreamEx(Bundle stream, CITY_TYPE_PRICE_LIST v)
+		{
+			stream.writeUint32((UInt32)v.Count);
+			for(int i=0; i<v.Count; ++i)
+			{
+				itemType.addToStreamEx(stream, v[i]);
+			};
+		}
+	}
+
+
+
+	public class DATATYPE_AVATAR_INFOS : DATATYPE_BASE
+	{
+		public AVATAR_INFOS createFromStreamEx(MemoryStream stream)
+		{
+			AVATAR_INFOS datas = new AVATAR_INFOS();
+			datas.dbid = stream.readUint64();
+			datas.Name = stream.readUnicode();
+			datas.RoleType = stream.readUint8();
+			datas.Country = stream.readUint8();
+			datas.Sex = stream.readUint8();
+			datas.Level = stream.readInt16();
+			datas.Gold = stream.readInt32();
+			return datas;
+		}
+
+		public void addToStreamEx(Bundle stream, AVATAR_INFOS v)
+		{
+			stream.writeUint64(v.dbid);
+			stream.writeUnicode(v.Name);
+			stream.writeUint8(v.RoleType);
+			stream.writeUint8(v.Country);
+			stream.writeUint8(v.Sex);
+			stream.writeInt16(v.Level);
+			stream.writeInt32(v.Gold);
+		}
+	}
+
+
 }

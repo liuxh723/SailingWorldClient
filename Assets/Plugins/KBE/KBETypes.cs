@@ -708,5 +708,704 @@ namespace KBEngine
 		}
 	}
 
+	public struct OBJECT_ID
+	{
+		Int32 value;
+
+		OBJECT_ID(Int32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Int32(OBJECT_ID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator OBJECT_ID(int value)
+		{
+			Int32 tvalue = (Int32)value;
+			return new OBJECT_ID(tvalue);
+		}
+
+		public static Int32 MaxValue
+		{
+			get
+			{
+				return Int32.MaxValue;
+			}
+		}
+
+		public static Int32 MinValue
+		{
+			get
+			{
+				return Int32.MinValue;
+			}
+		}
+	}
+
+	public struct BOOL
+	{
+		Byte value;
+
+		BOOL(Byte value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Byte(BOOL value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator BOOL(int value)
+		{
+			Byte tvalue = (Byte)value;
+			return new BOOL(tvalue);
+		}
+
+		public static Byte MaxValue
+		{
+			get
+			{
+				return Byte.MaxValue;
+			}
+		}
+
+		public static Byte MinValue
+		{
+			get
+			{
+				return Byte.MinValue;
+			}
+		}
+	}
+
+	public struct CONTROLLER_ID
+	{
+		Int32 value;
+
+		CONTROLLER_ID(Int32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Int32(CONTROLLER_ID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator CONTROLLER_ID(int value)
+		{
+			Int32 tvalue = (Int32)value;
+			return new CONTROLLER_ID(tvalue);
+		}
+
+		public static Int32 MaxValue
+		{
+			get
+			{
+				return Int32.MaxValue;
+			}
+		}
+
+		public static Int32 MinValue
+		{
+			get
+			{
+				return Int32.MinValue;
+			}
+		}
+	}
+
+	public struct EXPERIENCE
+	{
+		Int32 value;
+
+		EXPERIENCE(Int32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Int32(EXPERIENCE value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator EXPERIENCE(int value)
+		{
+			Int32 tvalue = (Int32)value;
+			return new EXPERIENCE(tvalue);
+		}
+
+		public static Int32 MaxValue
+		{
+			get
+			{
+				return Int32.MaxValue;
+			}
+		}
+
+		public static Int32 MinValue
+		{
+			get
+			{
+				return Int32.MinValue;
+			}
+		}
+	}
+
+	public struct ITEM_ID
+	{
+		Int32 value;
+
+		ITEM_ID(Int32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Int32(ITEM_ID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator ITEM_ID(int value)
+		{
+			Int32 tvalue = (Int32)value;
+			return new ITEM_ID(tvalue);
+		}
+
+		public static Int32 MaxValue
+		{
+			get
+			{
+				return Int32.MaxValue;
+			}
+		}
+
+		public static Int32 MinValue
+		{
+			get
+			{
+				return Int32.MinValue;
+			}
+		}
+	}
+
+	public struct SKILLID
+	{
+		Int32 value;
+
+		SKILLID(Int32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Int32(SKILLID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator SKILLID(int value)
+		{
+			Int32 tvalue = (Int32)value;
+			return new SKILLID(tvalue);
+		}
+
+		public static Int32 MaxValue
+		{
+			get
+			{
+				return Int32.MaxValue;
+			}
+		}
+
+		public static Int32 MinValue
+		{
+			get
+			{
+				return Int32.MinValue;
+			}
+		}
+	}
+
+	public struct QUESTID
+	{
+		Int32 value;
+
+		QUESTID(Int32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Int32(QUESTID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator QUESTID(int value)
+		{
+			Int32 tvalue = (Int32)value;
+			return new QUESTID(tvalue);
+		}
+
+		public static Int32 MaxValue
+		{
+			get
+			{
+				return Int32.MaxValue;
+			}
+		}
+
+		public static Int32 MinValue
+		{
+			get
+			{
+				return Int32.MinValue;
+			}
+		}
+	}
+
+	public struct DBID
+	{
+		UInt64 value;
+
+		DBID(UInt64 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator UInt64(DBID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator DBID(int value)
+		{
+			UInt64 tvalue = (UInt64)value;
+			return new DBID(tvalue);
+		}
+
+		public static UInt64 MaxValue
+		{
+			get
+			{
+				return UInt64.MaxValue;
+			}
+		}
+
+		public static UInt64 MinValue
+		{
+			get
+			{
+				return UInt64.MinValue;
+			}
+		}
+	}
+
+	public struct UID
+	{
+		UInt64 value;
+
+		UID(UInt64 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator UInt64(UID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator UID(int value)
+		{
+			UInt64 tvalue = (UInt64)value;
+			return new UID(tvalue);
+		}
+
+		public static UInt64 MaxValue
+		{
+			get
+			{
+				return UInt64.MaxValue;
+			}
+		}
+
+		public static UInt64 MinValue
+		{
+			get
+			{
+				return UInt64.MinValue;
+			}
+		}
+	}
+
+	public struct UID1
+	{
+		byte[] value;
+
+		UID1(byte[] value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator byte[](UID1 value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator UID1(byte[] value)
+		{
+			byte[] tvalue = (byte[])value;
+			return new UID1(tvalue);
+		}
+
+		public Byte this[int ID]
+		{
+			get { return value[ID]; }
+			set { this.value[ID] = value; }
+		}
+	}
+
+	public struct ENTITY_ID
+	{
+		Int32 value;
+
+		ENTITY_ID(Int32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Int32(ENTITY_ID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator ENTITY_ID(int value)
+		{
+			Int32 tvalue = (Int32)value;
+			return new ENTITY_ID(tvalue);
+		}
+
+		public static Int32 MaxValue
+		{
+			get
+			{
+				return Int32.MaxValue;
+			}
+		}
+
+		public static Int32 MinValue
+		{
+			get
+			{
+				return Int32.MinValue;
+			}
+		}
+	}
+
+	public struct ENTITY_NO
+	{
+		UInt32 value;
+
+		ENTITY_NO(UInt32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator UInt32(ENTITY_NO value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator ENTITY_NO(int value)
+		{
+			UInt32 tvalue = (UInt32)value;
+			return new ENTITY_NO(tvalue);
+		}
+
+		public static UInt32 MaxValue
+		{
+			get
+			{
+				return UInt32.MaxValue;
+			}
+		}
+
+		public static UInt32 MinValue
+		{
+			get
+			{
+				return UInt32.MinValue;
+			}
+		}
+	}
+
+	public struct SPACE_ID
+	{
+		UInt32 value;
+
+		SPACE_ID(UInt32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator UInt32(SPACE_ID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator SPACE_ID(int value)
+		{
+			UInt32 tvalue = (UInt32)value;
+			return new SPACE_ID(tvalue);
+		}
+
+		public static UInt32 MaxValue
+		{
+			get
+			{
+				return UInt32.MaxValue;
+			}
+		}
+
+		public static UInt32 MinValue
+		{
+			get
+			{
+				return UInt32.MinValue;
+			}
+		}
+	}
+
+	public struct POSITION3D
+	{
+		Vector3 value;
+
+		POSITION3D(Vector3 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Vector3(POSITION3D value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator POSITION3D(Vector3 value)
+		{
+			Vector3 tvalue = (Vector3)value;
+			return new POSITION3D(tvalue);
+		}
+
+		public float x
+		{
+			get { return value.x; }
+			set { this.value.x = value; }
+		}
+
+		public float y
+		{
+			get { return value.y; }
+			set { this.value.y = value; }
+		}
+
+		public float z
+		{
+			get { return value.z; }
+			set { this.value.z = value; }
+		}
+
+	}
+
+	public struct DIRECTION3D
+	{
+		Vector3 value;
+
+		DIRECTION3D(Vector3 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator Vector3(DIRECTION3D value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator DIRECTION3D(Vector3 value)
+		{
+			Vector3 tvalue = (Vector3)value;
+			return new DIRECTION3D(tvalue);
+		}
+
+		public float x
+		{
+			get { return value.x; }
+			set { this.value.x = value; }
+		}
+
+		public float y
+		{
+			get { return value.y; }
+			set { this.value.y = value; }
+		}
+
+		public float z
+		{
+			get { return value.z; }
+			set { this.value.z = value; }
+		}
+
+	}
+
+	public struct ENTITY_UTYPE
+	{
+		UInt32 value;
+
+		ENTITY_UTYPE(UInt32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator UInt32(ENTITY_UTYPE value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator ENTITY_UTYPE(int value)
+		{
+			UInt32 tvalue = (UInt32)value;
+			return new ENTITY_UTYPE(tvalue);
+		}
+
+		public static UInt32 MaxValue
+		{
+			get
+			{
+				return UInt32.MaxValue;
+			}
+		}
+
+		public static UInt32 MinValue
+		{
+			get
+			{
+				return UInt32.MinValue;
+			}
+		}
+	}
+
+	public struct GOODSID
+	{
+		UInt64 value;
+
+		GOODSID(UInt64 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator UInt64(GOODSID value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator GOODSID(int value)
+		{
+			UInt64 tvalue = (UInt64)value;
+			return new GOODSID(tvalue);
+		}
+
+		public static UInt64 MaxValue
+		{
+			get
+			{
+				return UInt64.MaxValue;
+			}
+		}
+
+		public static UInt64 MinValue
+		{
+			get
+			{
+				return UInt64.MinValue;
+			}
+		}
+	}
+
+	public struct GOODSTYPE
+	{
+		UInt32 value;
+
+		GOODSTYPE(UInt32 value)
+		{
+			this.value = value;
+		}
+
+		public static implicit operator UInt32(GOODSTYPE value)
+		{
+			return value.value;
+		}
+
+		public static implicit operator GOODSTYPE(int value)
+		{
+			UInt32 tvalue = (UInt32)value;
+			return new GOODSTYPE(tvalue);
+		}
+
+		public static UInt32 MaxValue
+		{
+			get
+			{
+				return UInt32.MaxValue;
+			}
+		}
+
+		public static UInt32 MinValue
+		{
+			get
+			{
+				return UInt32.MinValue;
+			}
+		}
+	}
+
+	public class CITY_SELL_GOODS_INFO
+	{
+		public UInt64 GoodsID = 0;
+		public UInt16 GoodsBaseNum = 0;
+
+	}
+
+	public class CITY_SELL_GOODS_LIST
+	{
+		public List<CITY_SELL_GOODS_INFO> values = new List<CITY_SELL_GOODS_INFO>();
+
+	}
+
+	public class CITY_TYPE_PRICE_INFO
+	{
+		public UInt32 GoodsType = 0;
+		public float TypePrice = 0f;
+
+	}
+
+	public class CITY_TYPE_PRICE_LIST : List<CITY_TYPE_PRICE_INFO>
+	{
+
+	}
+
+	public class AVATAR_INFOS
+	{
+		public UInt64 dbid = 0;
+		public string Name = "";
+		public Byte RoleType = 0;
+		public Byte Country = 0;
+		public Byte Sex = 0;
+		public Int16 Level = 0;
+		public Int32 Gold = 0;
+
+	}
+
 
 }
