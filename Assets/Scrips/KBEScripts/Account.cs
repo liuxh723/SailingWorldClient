@@ -32,7 +32,14 @@ public class Account : AccountBase {
 
     public override void onCreateAvatarResult(byte arg1, byte[] arg2)
     {
-        throw new System.NotImplementedException();
+       if(arg1 == 0)
+       {
+            KBEngine.Event.fireOut("onCreateAvatarFaile");
+       }
+       if(arg1 == 1)
+       {
+            KBEngine.Event.fireOut("onCreateAvatarSuccessfully");
+       }
 
     }
 

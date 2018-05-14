@@ -30,6 +30,7 @@ public class LoginManager : MonoBehaviour {
         KBEngine.Event.registerOut("onLoginFailed", this, "onLoginFailed");
         KBEngine.Event.registerOut("onLoginSuccessfully", this, "onLoginSuccessfully");
         KBEngine.Event.registerOut("onHaveNoAvatar", this, "onHaveNoAvatar");
+        KBEngine.Event.registerOut("onCreateAvatarSuccessfully",this, "onCreateAvatarSuccessfully");
     }
 	
 	// Update is called once per frame
@@ -54,7 +55,16 @@ public class LoginManager : MonoBehaviour {
         me.baseEntityCall.reqAvatar();
 
     }
+    
+     public void onCreateAvatarSuccessfully(Avatar avatar)
+    {
+        Debug.LogFormat("创建角色成功！");
+        //message.text = ("登录成功！");
+        Account me = KBEngineApp.app.player() as Account;
+        //Data.accountNama = me.Name;
+        NameSet.SetActive(false);
 
+    }
     public void onLoginFailed(UInt16 failID)
     {
         Debug.LogErrorFormat("登录失败，错误码：{0},原因：{1}", failID, KBEngineApp.app.serverErr(failID));
