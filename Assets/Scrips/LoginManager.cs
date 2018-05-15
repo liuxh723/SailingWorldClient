@@ -56,11 +56,11 @@ public class LoginManager : MonoBehaviour {
 
     }
     
-     public void onCreateAvatarSuccessfully(Avatar avatar)
+     public void onCreateAvatarSuccessfully()
     {
         Debug.LogFormat("创建角色成功！");
         //message.text = ("登录成功！");
-        Account me = KBEngineApp.app.player() as Account;
+        //Account me = KBEngineApp.app.player() as Account;
         //Data.accountNama = me.Name;
         NameSet.SetActive(false);
 

@@ -47,40 +47,40 @@ public class GameEntity : MonoBehaviour
         characterController = ((UnityEngine.GameObject)gameObject).GetComponent<CharacterController>();
     }
 
-    void OnGUI()
-    {
-        if (!gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().GetComponent<Renderer>().isVisible)
-            return;
+    //void OnGUI()
+    //{
+    //    if (!gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().GetComponent<Renderer>().isVisible)
+    //        return;
 
-        Vector3 worldPosition = new Vector3(transform.position.x, transform.position.y + npcHeight, transform.position.z);
+    //    Vector3 worldPosition = new Vector3(transform.position.x, transform.position.y + npcHeight, transform.position.z);
 
-        if (playerCamera == null)
-            playerCamera = Camera.main;
+    //    if (playerCamera == null)
+    //        playerCamera = Camera.main;
 
-        //根据NPC头顶的3D坐标换算成它在2D屏幕中的坐标
-        Vector2 uiposition = playerCamera.WorldToScreenPoint(worldPosition);
+    //    //根据NPC头顶的3D坐标换算成它在2D屏幕中的坐标
+    //    Vector2 uiposition = playerCamera.WorldToScreenPoint(worldPosition);
 
-        //得到真实NPC头顶的2D坐标
-        uiposition = new Vector2(uiposition.x, Screen.height - uiposition.y);
+    //    //得到真实NPC头顶的2D坐标
+    //    uiposition = new Vector2(uiposition.x, Screen.height - uiposition.y);
 
-        //计算NPC名称的宽高
-        Vector2 nameSize = GUI.skin.label.CalcSize(new GUIContent(entity_name));
+    //    //计算NPC名称的宽高
+    //    Vector2 nameSize = GUI.skin.label.CalcSize(new GUIContent(entity_name));
 
-        //设置显示颜色为黄色
-        GUI.color = Color.yellow;
+    //    //设置显示颜色为黄色
+    //    GUI.color = Color.yellow;
 
-        //绘制NPC名称
-        GUI.Label(new Rect(uiposition.x - (nameSize.x / 2), uiposition.y - nameSize.y - 5.0f, nameSize.x, nameSize.y), entity_name);
+    //    //绘制NPC名称
+    //    GUI.Label(new Rect(uiposition.x - (nameSize.x / 2), uiposition.y - nameSize.y - 5.0f, nameSize.x, nameSize.y), entity_name);
 
-        //计算NPC名称的宽高
-        Vector2 hpSize = GUI.skin.label.CalcSize(new GUIContent(hp));
+    //    //计算NPC名称的宽高
+    //    Vector2 hpSize = GUI.skin.label.CalcSize(new GUIContent(hp));
 
-        //设置显示颜色为红
-        GUI.color = Color.red;
+    //    //设置显示颜色为红
+    //    GUI.color = Color.red;
 
-        //绘制HP
-        GUI.Label(new Rect(uiposition.x - (hpSize.x / 2), uiposition.y - hpSize.y - 30.0f, hpSize.x, hpSize.y), hp);
-    }
+    //    //绘制HP
+    //    GUI.Label(new Rect(uiposition.x - (hpSize.x / 2), uiposition.y - hpSize.y - 30.0f, hpSize.x, hpSize.y), hp);
+    //}
 
     public Vector3 position
     {
@@ -181,141 +181,141 @@ public class GameEntity : MonoBehaviour
         entityEnabled = false;
     }
 
-    public void set_state(sbyte v)
-    {
-        if (v == 3)
-        {
-            if (isPlayer)
-                gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.green;
-            else
-                gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.red;
-        }
-        else if (v == 0)
-        {
-            if (isPlayer)
-                gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.blue;
-            else
-                gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.white;
-        }
-        else if (v == 1)
-        {
-            gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.black;
-        }
-    }
+    //public void set_state(sbyte v)
+    //{
+    //    if (v == 3)
+    //    {
+    //        if (isPlayer)
+    //            gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.green;
+    //        else
+    //            gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.red;
+    //    }
+    //    else if (v == 0)
+    //    {
+    //        if (isPlayer)
+    //            gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.blue;
+    //        else
+    //            gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.white;
+    //    }
+    //    else if (v == 1)
+    //    {
+    //        gameObject.transform.Find("Graphics").GetComponent<MeshRenderer>().material.color = Color.black;
+    //    }
+    //}
 
-    void FixedUpdate()
-    {
-        if (!entityEnabled || KBEngineApp.app == null)
-            return;
+    //void FixedUpdate()
+    //{
+    //    if (!entityEnabled || KBEngineApp.app == null)
+    //        return;
 
-        if (isPlayer == isControlled)
-            return;
+    //    if (isPlayer == isControlled)
+    //        return;
 
-        KBEngine.Event.fireIn("updatePlayer", spaceID, gameObject.transform.position.x,
-            gameObject.transform.position.y, gameObject.transform.position.z, gameObject.transform.rotation.eulerAngles.y);
-    }
+    //    KBEngine.Event.fireIn("updatePlayer", spaceID, gameObject.transform.position.x,
+    //        gameObject.transform.position.y, gameObject.transform.position.z, gameObject.transform.rotation.eulerAngles.y);
+    //}
 
-    void Update()
-    {
-        if (!entityEnabled)
-        {
-            position = destPosition;
-            return;
-        }
+    //void Update()
+    //{
+    //    if (!entityEnabled)
+    //    {
+    //        position = destPosition;
+    //        return;
+    //    }
 
-        float deltaSpeed = (speed * Time.deltaTime);
+    //    float deltaSpeed = (speed * Time.deltaTime);
 
-        if (isPlayer == true && isControlled == false)
-        {
-            characterController.stepOffset = deltaSpeed;
+    //    if (isPlayer == true && isControlled == false)
+    //    {
+    //        characterController.stepOffset = deltaSpeed;
 
-            if (isOnGround != characterController.isGrounded)
-            {
-                KBEngine.Entity player = KBEngineApp.app.player();
-                player.isOnGround = characterController.isGrounded;
-                isOnGround = characterController.isGrounded;
-            }
+    //        if (isOnGround != characterController.isGrounded)
+    //        {
+    //            KBEngine.Entity player = KBEngineApp.app.player();
+    //            player.isOnGround = characterController.isGrounded;
+    //            isOnGround = characterController.isGrounded;
+    //        }
 
-            return;
-        }
+    //        return;
+    //    }
 
-        if (Vector3.Distance(eulerAngles, destDirection) > 0.0004f)
-        {
-            rotation = Quaternion.Slerp(rotation, Quaternion.Euler(destDirection), 8f * Time.deltaTime);
-        }
+    //    if (Vector3.Distance(eulerAngles, destDirection) > 0.0004f)
+    //    {
+    //        rotation = Quaternion.Slerp(rotation, Quaternion.Euler(destDirection), 8f * Time.deltaTime);
+    //    }
 
-        float dist = 0.0f;
+    //    float dist = 0.0f;
 
-        // 如果isOnGround为true，服务端同步其他实体到客户端时为了节省流量并不同步y轴，客户端需要强制将实体贴在地面上
-        // 由于这里的地面位置就是0，所以直接填入0，如果是通过navmesh不规则地表高度寻路则需要想办法得到地面位置
-        if (isOnGround)
-        {
-            dist = Vector3.Distance(new Vector3(destPosition.x, 0f, destPosition.z),
-                new Vector3(position.x, 0f, position.z));
-        }
-        else
-        {
-            dist = Vector3.Distance(destPosition, position);
-        }
+    //    // 如果isOnGround为true，服务端同步其他实体到客户端时为了节省流量并不同步y轴，客户端需要强制将实体贴在地面上
+    //    // 由于这里的地面位置就是0，所以直接填入0，如果是通过navmesh不规则地表高度寻路则需要想办法得到地面位置
+    //    if (isOnGround)
+    //    {
+    //        dist = Vector3.Distance(new Vector3(destPosition.x, 0f, destPosition.z),
+    //            new Vector3(position.x, 0f, position.z));
+    //    }
+    //    else
+    //    {
+    //        dist = Vector3.Distance(destPosition, position);
+    //    }
 
-        if (jumpState > 0)
-        {
-            if (jumpState == 1)
-            {
-                currY += 0.05f;
+    //    if (jumpState > 0)
+    //    {
+    //        if (jumpState == 1)
+    //        {
+    //            currY += 0.05f;
 
-                if (currY > 2.0f)
-                    jumpState = 2;
-            }
-            else
-            {
-                currY -= 0.05f;
-                if (currY < 1.0f)
-                {
-                    jumpState = 0;
-                    currY = 1.0f;
-                }
-            }
+    //            if (currY > 2.0f)
+    //                jumpState = 2;
+    //        }
+    //        else
+    //        {
+    //            currY -= 0.05f;
+    //            if (currY < 1.0f)
+    //            {
+    //                jumpState = 0;
+    //                currY = 1.0f;
+    //            }
+    //        }
 
-            Vector3 pos = position;
-            pos.y = currY;
-            position = pos;
-        }
+    //        Vector3 pos = position;
+    //        pos.y = currY;
+    //        position = pos;
+    //    }
 
-        if (dist > 0.01f)
-        {
-            Vector3 pos = position;
+    //    if (dist > 0.01f)
+    //    {
+    //        Vector3 pos = position;
 
-            Vector3 movement = destPosition - pos;
-            movement.y = 0f;
-            movement.Normalize();
+    //        Vector3 movement = destPosition - pos;
+    //        movement.y = 0f;
+    //        movement.Normalize();
 
-            movement *= deltaSpeed;
+    //        movement *= deltaSpeed;
 
-            if (dist > deltaSpeed || movement.magnitude > deltaSpeed)
-                pos += movement;
-            else
-                pos = destPosition;
+    //        if (dist > deltaSpeed || movement.magnitude > deltaSpeed)
+    //            pos += movement;
+    //        else
+    //            pos = destPosition;
 
-            if (isOnGround)
-                pos.y = currY;
+    //        if (isOnGround)
+    //            pos.y = currY;
 
-            position = pos;
-        }
-        else
-        {
-            position = destPosition;
-        }
-    }
+    //        position = pos;
+    //    }
+    //    else
+    //    {
+    //        position = destPosition;
+    //    }
+    //}
 
-    public void OnJump()
-    {
-        Debug.Log("jumpState: " + jumpState);
+    //public void OnJump()
+    //{
+    //    Debug.Log("jumpState: " + jumpState);
 
-        if (jumpState != 0)
-            return;
+    //    if (jumpState != 0)
+    //        return;
 
-        jumpState = 1;
-    }
+    //    jumpState = 1;
+    //}
 }
 
