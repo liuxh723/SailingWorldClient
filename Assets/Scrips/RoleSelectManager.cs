@@ -28,13 +28,13 @@ public class RoleSelectManager : MonoBehaviour {
 
     public void SelContry(int index)
     {
-        selCountry = index;
+        selCountry = (UINT8)index;
         textCountry.text = "Country：" + index.ToString();
     }
 
     public void SelSex(int index)
     {
-        sex = index;
+        sex = (UINT8)index;
         textSex.text = "Sex:"+ index.ToString();
     }
 

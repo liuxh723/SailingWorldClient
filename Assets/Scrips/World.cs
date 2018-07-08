@@ -72,7 +72,7 @@ public class World : MonoBehaviour {
         set_position(avatar);
         set_direction(avatar);
 
-        mainCamera.GetComponent<CameraManager>().SetTarget(player);
+        //mainCamera.GetComponent<CameraManager>().SetTarget(player);
 
     }
     public void onAvatarEnterWorld(UInt64 rndUUID, Int32 eid, Avatar avatar)

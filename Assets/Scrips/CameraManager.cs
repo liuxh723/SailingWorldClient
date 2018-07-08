@@ -9,13 +9,31 @@ public class CameraManager : MonoBehaviour {
     public float harf = 1000.0f;
     public float damping = 2.0f;
     public bool GoLookAtTarget = false;
+
+    private float r;
+    private float si;
+    private float co;
+
+    private void Start()
+    {
+
+
+       
+
+    }
     void Update()
     {
         if (GoLookAtTarget)
         {
+            float tagx = lookAtTarget.position.x;
+            float tagy = lookAtTarget.position.y;
+            float tagz = lookAtTarget.position.z;
+            r = Mathf.Sqrt(tagx * tagx + tagy * tagy + tagz * tagz);
+            si = Mathf.Acos(tagz / r);
+            co = Mathf.Atan(tagy / tagx);
             if (!lookAtTarget || !frameTarget)
                 return;
-            Vector3 position = new Vector3(harf * Mathf.Sin(0.7854f) * Mathf.Cos(0.7854f), harf * Mathf.Sin(0.7854f) * Mathf.Sin(0.7854f), harf * Mathf.Cos(0.7854f));
+            Vector3 position = new Vector3(harf * Mathf.Sin(si) * Mathf.Cos(co), harf * Mathf.Sin(si) * Mathf.Sin(co), harf * Mathf.Cos(si));
             transform.position = position;
             Quaternion rotate = Quaternion.LookRotation(lookAtTarget.position - transform.position);
             transform.rotation = Quaternion.Slerp(transform.rotation, rotate, Time.deltaTime * damping);

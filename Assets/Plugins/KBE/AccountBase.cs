@@ -92,7 +92,7 @@ namespace KBEngine
 			{
 				case 3:
 					Byte onCreateAvatarResult_arg1 = stream.readUint8();
-					PYTHON onCreateAvatarResult_arg2 = stream.readPython();
+					byte[] onCreateAvatarResult_arg2 = stream.readPython();
 					onCreateAvatarResult(onCreateAvatarResult_arg1, onCreateAvatarResult_arg2);
 					break;
 				case 4:
